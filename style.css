@@ -1,0 +1,46 @@
+body {
+  background-color: lightgray;
+}
+
+header {
+  padding-block: 16px;
+  background-color: white;
+  box-shadow: 1px 1px 2px gray;
+}
+
+.nav .nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  & .btn {
+    padding-inline: 6px;
+    padding-block: 4px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px gray;
+  }
+}
+
+main {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  max-height: 360px;
+  max-width: 220px;
+  padding: 10px 20px;
+  text-align: center;
+
+  & .card-img {
+    max-width: 120px;
+  }
+
+  & .card-title {
+    font-weight: 500;
+  }
+}
